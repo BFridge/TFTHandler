@@ -20,3 +20,25 @@ E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\C
 E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\obj\x64\Release\ConsoleMThreads.csproj.GenerateResource.Cache
 E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\obj\x64\Release\ConsoleMThreads.exe
 E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\obj\x64\Release\ConsoleMThreads.pdb
+E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\bin\x64\Release\ConsoleMThreads.exe.config
+E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\bin\x64\Release\att.mdf
+E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\bin\x64\Release\att_log.ldf
+E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\obj\x64\Release\ConsoleMThreads.csprojResolveAssemblyReference.cache
+E:\ConsoleMThreads\bin\x64\Release\ConsoleMThreads.exe.config
+E:\ConsoleMThreads\obj\x64\Release\Interop.zkemkeeper.dll
+E:\ConsoleMThreads\obj\x64\Release\ConsoleMThreads.csproj.ResolveComReference.cache
+E:\ConsoleMThreads\obj\x64\Release\ConsoleMThreads.exe
+E:\ConsoleMThreads\obj\x64\Release\ConsoleMThreads.pdb
+E:\ConsoleMThreads\bin\x64\Release\att.mdf
+E:\ConsoleMThreads\bin\x64\Release\att_log.ldf
+E:\ConsoleMThreads\bin\x64\Release\ConsoleMThreads.exe
+E:\ConsoleMThreads\bin\x64\Release\ConsoleMThreads.pdb
+E:\ConsoleMThreads\bin\x64\Release\Newtonsoft.Json.dll
+E:\ConsoleMThreads\bin\x64\Release\RestSharp.dll
+E:\ConsoleMThreads\bin\x64\Release\Newtonsoft.Json.xml
+E:\ConsoleMThreads\bin\x64\Release\RestSharp.xml
+E:\ConsoleMThreads\bin\x64\Release\Interop.zkemkeeper.dll
+E:\ConsoleMThreads\obj\x64\Release\ConsoleMThreads.csprojResolveAssemblyReference.cache
+E:\ConsoleMThreads\obj\x64\Release\ConsoleMThreads.ProjectInstaller.resources
+E:\ConsoleMThreads\obj\x64\Release\ConsoleMThreads.Service.MainService.resources
+E:\ConsoleMThreads\obj\x64\Release\ConsoleMThreads.csproj.GenerateResource.Cache

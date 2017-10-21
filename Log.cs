@@ -16,18 +16,30 @@ namespace ConsoleMThreads
         public  static void setEventLogger(EventLog eventlog) {
             evt = eventlog;
         }
-
-
         public static void d(string logMessage)
         {
-
+            if (isDebugging()) {
+                //Console.WriteLine(logMessage);
+            }
             Debug.WriteLine(logMessage);
-            Console.WriteLine(logMessage);
             if (evt != null) {
                 evt.WriteEntry(logMessage);
             }
-           
-           
+        }
+
+        public static bool isDebugging()
+        {
+            bool debugging = false;
+
+            WellAreWe(ref debugging);
+
+            return debugging;
+        }
+
+        [Conditional("DEBUG")]
+        private static void WellAreWe(ref bool debugging)
+        {
+            debugging = true;
         }
     }
 }

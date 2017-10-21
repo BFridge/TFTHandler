@@ -12,8 +12,25 @@ E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\C
 E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\obj\x64\Debug\ConsoleMThreads.csproj.GenerateResource.Cache
 E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\obj\x64\Debug\ConsoleMThreads.exe
 E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\obj\x64\Debug\ConsoleMThreads.pdb
+E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\bin\x64\Debug\ConsoleMThreads.exe.config
+E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\bin\x64\Debug\att.mdf
+E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\bin\x64\Debug\att_log.ldf
 E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\obj\x64\Debug\ConsoleMThreads.csprojResolveAssemblyReference.cache
+E:\ConsoleMThreads\bin\x64\Debug\ConsoleMThreads.exe.config
 E:\ConsoleMThreads\obj\x64\Debug\Interop.zkemkeeper.dll
 E:\ConsoleMThreads\obj\x64\Debug\ConsoleMThreads.csproj.ResolveComReference.cache
 E:\ConsoleMThreads\obj\x64\Debug\ConsoleMThreads.exe
 E:\ConsoleMThreads\obj\x64\Debug\ConsoleMThreads.pdb
+E:\ConsoleMThreads\bin\x64\Debug\att.mdf
+E:\ConsoleMThreads\bin\x64\Debug\att_log.ldf
+E:\ConsoleMThreads\bin\x64\Debug\ConsoleMThreads.exe
+E:\ConsoleMThreads\bin\x64\Debug\ConsoleMThreads.pdb
+E:\ConsoleMThreads\bin\x64\Debug\Newtonsoft.Json.dll
+E:\ConsoleMThreads\bin\x64\Debug\RestSharp.dll
+E:\ConsoleMThreads\bin\x64\Debug\Newtonsoft.Json.xml
+E:\ConsoleMThreads\bin\x64\Debug\RestSharp.xml
+E:\ConsoleMThreads\bin\x64\Debug\Interop.zkemkeeper.dll
+E:\ConsoleMThreads\obj\x64\Debug\ConsoleMThreads.csprojResolveAssemblyReference.cache
+E:\ConsoleMThreads\obj\x64\Debug\ConsoleMThreads.ProjectInstaller.resources
+E:\ConsoleMThreads\obj\x64\Debug\ConsoleMThreads.Service.MainService.resources
+E:\ConsoleMThreads\obj\x64\Debug\ConsoleMThreads.csproj.GenerateResource.Cache
