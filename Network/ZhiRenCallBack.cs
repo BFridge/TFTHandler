@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleMThreads
 {
+
+    //used
     interface ZhiRenCallBack
     {
         void onSuccess();

@@ -125,6 +125,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Service\ErrorHandler.cs" />
     <Compile Include="Service\MainService.cs">
       <SubType>Component</SubType>
     </Compile>

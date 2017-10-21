@@ -31,18 +31,22 @@ namespace ConsoleMThreads.Service
             evt.Log = LOG_NAME;
             Log.setEventLogger(evt);
             manager = new ThreadManager();
+            AppDomain.CurrentDomain.UnhandledException
+             += new UnhandledExceptionEventHandler(ErrorHandler.HandleException);
         }
 
         internal void TestStartupAndStop(string[] args)
         {
             this.OnStart(args);
+
+            Console.ReadLine();
            
         }
 
 
         protected override void OnStart(string[] args)
         {
-            Log.d("OnStart");
+            Log.i("OnStart");
 
           
             // TODO: test
@@ -52,9 +56,7 @@ namespace ConsoleMThreads.Service
             //ZhiRenHandler.GetSubCompany();
 
             manager.Start();
-            Log.d("OnStart End");
-            Console.ReadLine();
-
+            Log.i("OnStart End");
         }
 
 

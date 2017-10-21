@@ -1,0 +1,47 @@
+﻿正在安装程序集“E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe
+   logfile = E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.InstallLog
+正在安装服务 tft_lisener...
+正在日志 Application 中创建 EventLog 源 tft_lisener...
+正在回滚程序集“E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe
+   logfile = E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.InstallLog
+正在将事件日志还原到源 tft_lisener 的前一状态。
+正在安装程序集“E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.InstallLog
+   assemblypath = E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe
+正在安装服务 tft_lisener...
+正在日志 Application 中创建 EventLog 源 tft_lisener...
+正在回滚程序集“E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.InstallLog
+   assemblypath = E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe
+正在将事件日志还原到源 tft_lisener 的前一状态。
+正在卸载程序集“E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.InstallLog
+   assemblypath = E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe
+正在移除 EventLog 源 tft_lisener。
+正在从系统中移除服务 tft_lisener...
+已成功地从系统中移除服务 tft_lisener。
+正在安装程序集“E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.InstallLog
+   assemblypath = E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe
+正在安装服务 tft_lisener...
+已成功安装服务 tft_lisener。
+正在日志 Application 中创建 EventLog 源 tft_lisener...
+正在提交程序集“E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.InstallLog
+   assemblypath = E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe

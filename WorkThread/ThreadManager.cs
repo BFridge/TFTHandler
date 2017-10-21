@@ -21,7 +21,7 @@ namespace ConsoleMThreads.WorkThread
             bool bSetMaxThread = ThreadPool.SetMaxThreads(200, 500);
             if (!bSetMaxThread)
             {
-                Log.d("Setting max threads of the threadpool failed!");
+                Log.e("Setting max threads of the threadpool failed!");
             }
             ThreadPool.QueueUserWorkItem(StartThreads);//Put the method into the queue to implement.
         }
@@ -71,7 +71,7 @@ namespace ConsoleMThreads.WorkThread
                     Thread.Sleep(10000);
                 }
                 else {
-                    Thread.Sleep(360000);
+                    Thread.Sleep(3600000);
                 }
                 //}
 
@@ -86,7 +86,7 @@ namespace ConsoleMThreads.WorkThread
             {
                 thread.DisConnect(0);//Put the method into the queue to implement.
             }
-            Log.d("OnStop");
+            Log.i("OnStop");
         }
 
         private int GetTimeInMinute()//return the time in mimutes

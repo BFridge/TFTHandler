@@ -15,3 +15,21 @@ E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\C
 E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\obj\Debug\ConsoleMThreads.csproj.GenerateResource.Cache
 E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\obj\Debug\ConsoleMThreads.exe
 E:\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\ConsoleMThreads\obj\Debug\ConsoleMThreads.pdb
+E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe.config
+E:\ConsoleMThreads\obj\Debug\Interop.zkemkeeper.dll
+E:\ConsoleMThreads\obj\Debug\ConsoleMThreads.csproj.ResolveComReference.cache
+E:\ConsoleMThreads\obj\Debug\ConsoleMThreads.exe
+E:\ConsoleMThreads\obj\Debug\ConsoleMThreads.pdb
+E:\ConsoleMThreads\bin\Debug\att.mdf
+E:\ConsoleMThreads\bin\Debug\att_log.ldf
+E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.exe
+E:\ConsoleMThreads\bin\Debug\ConsoleMThreads.pdb
+E:\ConsoleMThreads\bin\Debug\Newtonsoft.Json.dll
+E:\ConsoleMThreads\bin\Debug\RestSharp.dll
+E:\ConsoleMThreads\bin\Debug\Newtonsoft.Json.xml
+E:\ConsoleMThreads\bin\Debug\RestSharp.xml
+E:\ConsoleMThreads\bin\Debug\Interop.zkemkeeper.dll
+E:\ConsoleMThreads\obj\Debug\ConsoleMThreads.csprojResolveAssemblyReference.cache
+E:\ConsoleMThreads\obj\Debug\ConsoleMThreads.ProjectInstaller.resources
+E:\ConsoleMThreads\obj\Debug\ConsoleMThreads.Service.MainService.resources
+E:\ConsoleMThreads\obj\Debug\ConsoleMThreads.csproj.GenerateResource.Cache

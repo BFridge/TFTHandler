@@ -22,8 +22,22 @@ namespace ConsoleMThreads
                 //Console.WriteLine(logMessage);
             }
             Debug.WriteLine(logMessage);
-            if (evt != null) {
+        }
+
+        public static void i(string logMessage) {
+            Debug.WriteLine(logMessage);
+
+            if (evt != null)
+            {
                 evt.WriteEntry(logMessage);
+            }
+        }
+
+        public static void e(string logMessage) {
+            Debug.WriteLine("【FALTAL】:" + logMessage);
+            if (evt != null)
+            {
+                evt.WriteEntry(logMessage, EventLogEntryType.Error,20);
             }
         }
 

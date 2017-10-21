@@ -22,7 +22,7 @@ namespace ConsoleMThreads
             hmac = new HMACSHA256(Encoding.ASCII.GetBytes(AppUtils.GetZhiRenSecretKey()));
         }
 
-        public static void sendUserVerified(IEnumerable<TFTAttLog> logsToSend , Action<ZhirenResponse> callback)
+        public static void sendUserVerified(IEnumerable<TFTAttLog> logsToSend , Action<ZhirenResponse[]> callback)
         {
             if (logsToSend == null) {
                 return;
@@ -40,7 +40,6 @@ namespace ConsoleMThreads
             var payload = new JsonObject();
             payload.Add("attendances", jsonArray);
 
-            Log.d(payload.ToString());
             GetCommonRequest(requst, payload.ToString(), callback);
         }
 
@@ -52,7 +51,7 @@ namespace ConsoleMThreads
         }
 
         //网络请求统一走这里
-        private static void GetCommonRequest(RestRequest request, String payload, Action<ZhirenResponse> callback)
+        private static void GetCommonRequest(RestRequest request, String payload, Action<ZhirenResponse[]> callback)
         {
             request.AddQueryParameter("access_key", AppUtils.GetZhiRenAccessKey());
             var tonce = (DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds.ToString();
@@ -60,11 +59,9 @@ namespace ConsoleMThreads
             request.AddQueryParameter("payload", payload);
 
             string string_to_sign = request.Method + request.Resource + AppUtils.GetZhiRenAccessKey() + tonce + payload;
-            Log.d(string_to_sign);
             byte[] b = Encoding.ASCII.GetBytes(string_to_sign);
             string finalSignature = HashEncode(hmac.ComputeHash(b));
             request.AddQueryParameter("signature", finalSignature);
-           Log.d(finalSignature);
 
             request.AddHeader("x-zhiren-signature", finalSignature);
             // easy async support
@@ -76,7 +73,7 @@ namespace ConsoleMThreads
                     return;
                 }
                 var res = ZhirenResponse.FromJson(response.Content);
-                callback(res[0]);
+                callback(res);
             });
 
         }
