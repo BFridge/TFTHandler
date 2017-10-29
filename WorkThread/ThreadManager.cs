@@ -65,12 +65,14 @@ namespace ConsoleMThreads.WorkThread
                 foreach (var t in threads)
                 {
                     t.WakeUp(0);
+                    Thread.Sleep(10000);
                 }
                 if (Log.isDebugging())
                 {
                     Thread.Sleep(10000);
                 }
                 else {
+                    //每小时更新一次
                     Thread.Sleep(3600000);
                 }
                 //}
