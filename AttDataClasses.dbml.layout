@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12.25, 8.5" name="AttDataClasses">
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="AttDataClasses">
   <DataContextMoniker Name="/AttDataClassesDataContext" />
   <nestedChildShapes>
-    <classShape Id="988ea343-7e58-41fb-b1a5-159d753957d6" absoluteBounds="10, 1.75, 2, 2.0916874186197916">
+    <classShape Id="be5fc7d9-53d3-4243-aa65-1f0628f8df94" absoluteBounds="5.625, 2.25, 2, 2.0916874186197916">
       <DataClassMoniker Name="/AttDataClassesDataContext/TFTAttLog" />
       <nestedChildShapes>
-        <elementListCompartment Id="726fac2e-b757-4d7d-bb3a-258207adb46e" absoluteBounds="10.015, 2.21, 1.9700000000000002, 1.5316874186197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="ffafc763-e57d-4be4-a5cf-4a9510892ef3" absoluteBounds="5.64, 2.71, 1.9700000000000002, 1.5316874186197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
   </nestedChildShapes>

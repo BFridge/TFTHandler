@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="att" Class="AttDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\att.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="ConsoleMThreads.Properties.Settings" SettingsPropertyName="attConnectionString3" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\data\att.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="ConsoleMThreads.Properties.Settings" SettingsPropertyName="attConnectionString4" Provider="System.Data.SqlClient" />
   <Table Name="dbo.TFTAttLogs" Member="TFTAttLogs">
     <Type Name="TFTAttLog">
       <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />

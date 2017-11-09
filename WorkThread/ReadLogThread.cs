@@ -163,8 +163,10 @@ namespace ConsoleMThreads.WorkThread
                 if (response[0].Code != null)
                 {
 
+
+
                     //todo:调试模式下依然按照成功处理 等之人后端搞定之后去除isDebugging判断
-                    if (!Log.isDebugging() && response[0].Code.Contains("error"))
+                    if (response[0].Code.Contains("error") && !response[0].ErrorMessage.Contains("重复") && !response[0].ErrorMessage.Contains("employee not found"))
                     {
                         Log.e("ZHIREN error" + response[0].ErrorMessage);
                         return;

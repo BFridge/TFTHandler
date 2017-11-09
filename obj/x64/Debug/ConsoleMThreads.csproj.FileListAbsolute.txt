@@ -21,8 +21,6 @@ E:\ConsoleMThreads\obj\x64\Debug\Interop.zkemkeeper.dll
 E:\ConsoleMThreads\obj\x64\Debug\ConsoleMThreads.csproj.ResolveComReference.cache
 E:\ConsoleMThreads\obj\x64\Debug\ConsoleMThreads.exe
 E:\ConsoleMThreads\obj\x64\Debug\ConsoleMThreads.pdb
-E:\ConsoleMThreads\bin\x64\Debug\att.mdf
-E:\ConsoleMThreads\bin\x64\Debug\att_log.ldf
 E:\ConsoleMThreads\bin\x64\Debug\ConsoleMThreads.exe
 E:\ConsoleMThreads\bin\x64\Debug\ConsoleMThreads.pdb
 E:\ConsoleMThreads\bin\x64\Debug\Newtonsoft.Json.dll

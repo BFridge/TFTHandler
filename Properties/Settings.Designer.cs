@@ -37,34 +37,11 @@ namespace ConsoleMThreads.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\data\\att.mdf;" +
-            "Integrated Security=True;Connect Timeout=30")]
-        public string attConnectionString1 {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\data\\att.mdf;Integrated Se" +
+            "curity=True;Connect Timeout=30")]
+        public string attConnectionString4 {
             get {
-                return ((string)(this["attConnectionString1"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"E:\\zkemsdk\\zkemSource\\脱机通讯开发" +
-            "包(64bit Ver6.2.4.11)\\Demo\\C#\\TFT_x64\\data\\att.mdf\";Integrated Security=True;Conn" +
-            "ect Timeout=30")]
-        public string attConnectionString2 {
-            get {
-                return ((string)(this["attConnectionString2"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\att.mdf;Integ" +
-            "rated Security=True;Connect Timeout=30")]
-        public string attConnectionString3 {
-            get {
-                return ((string)(this["attConnectionString3"]));
+                return ((string)(this["attConnectionString4"]));
             }
         }
     }

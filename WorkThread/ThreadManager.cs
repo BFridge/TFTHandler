@@ -33,7 +33,6 @@ namespace ConsoleMThreads.WorkThread
 
         private void StartThreads(Object obj)
         {
-
             iLastTry = 0;
             iDelay = 2;
             threads = new LinkedList<ReadLogThread>();
@@ -65,13 +64,15 @@ namespace ConsoleMThreads.WorkThread
                 foreach (var t in threads)
                 {
                     t.WakeUp(0);
+                    Thread.Sleep(10000);
                 }
                 if (Log.isDebugging())
                 {
                     Thread.Sleep(10000);
                 }
                 else {
-                    Thread.Sleep(3600000);
+                    //每小时更新一次
+                    Thread.Sleep(43200000);
                 }
                 //}
 

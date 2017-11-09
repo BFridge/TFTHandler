@@ -36,7 +36,7 @@ namespace ConsoleMThreads
     #endregion
 		
 		public AttDataClassesDataContext() : 
-				base(global::ConsoleMThreads.Properties.Settings.Default.attConnectionString3, mappingSource)
+				base(global::ConsoleMThreads.Properties.Settings.Default.attConnectionString4, mappingSource)
 		{
 			OnCreated();
 		}
