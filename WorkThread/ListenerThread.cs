@@ -3,6 +3,10 @@ using zkemkeeper;
 
 namespace ConsoleMThreads
 {
+    /// <summary>
+    /// 
+    /// 已经被废弃，实时同步功能限制太多，不能暂停服务。
+    /// </summary>
     class ListenerThread
     {
         ConnectInfo connectInfo;

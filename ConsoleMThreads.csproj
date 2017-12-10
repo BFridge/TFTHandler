@@ -132,9 +132,12 @@
     <Compile Include="Service\MainService.Designer.cs">
       <DependentUpon>MainService.cs</DependentUpon>
     </Compile>
+    <Compile Include="WorkThread\AbsThread.cs" />
+    <Compile Include="WorkThread\ClearLog.cs" />
     <Compile Include="WorkThread\ListenerThread.cs" />
     <Compile Include="WorkThread\ReadLogThread.cs" />
     <Compile Include="WorkThread\ThreadManager.cs" />
+    <Compile Include="WorkThread\TimeSync.cs" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="zkemkeeper">

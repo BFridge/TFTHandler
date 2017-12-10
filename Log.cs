@@ -35,6 +35,8 @@ namespace ConsoleMThreads
 
         public static void e(string logMessage) {
             Debug.WriteLine("【FALTAL】:" + logMessage);
+            ///
+            WorkThread.ClearLog.reportError();
             if (evt != null)
             {
                 evt.WriteEntry(logMessage, EventLogEntryType.Error,20);

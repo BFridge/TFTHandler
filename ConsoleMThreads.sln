@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleMThreads", "ConsoleMThreads.csproj", "{C6DEBE97-91F0-4F7D-AC08-B3CD153F598C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeijingTime", "..\BeijingTime\BeijingTime.csproj", "{8C3744ED-F4FD-43E3-B971-162B03215421}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Device", "..\zkemsdk\zkemSource\脱机通讯开发包(64bit Ver6.2.4.11)\Demo\C#\TFT_x64\Device Management\Device.csproj", "{8B8B46E4-868F-4466-82CF-03915BA4E3A3}"
 EndProject
 Global
@@ -25,14 +23,6 @@ Global
 		{C6DEBE97-91F0-4F7D-AC08-B3CD153F598C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C6DEBE97-91F0-4F7D-AC08-B3CD153F598C}.Release|x64.ActiveCfg = Release|x64
 		{C6DEBE97-91F0-4F7D-AC08-B3CD153F598C}.Release|x64.Build.0 = Release|x64
-		{8C3744ED-F4FD-43E3-B971-162B03215421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C3744ED-F4FD-43E3-B971-162B03215421}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C3744ED-F4FD-43E3-B971-162B03215421}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{8C3744ED-F4FD-43E3-B971-162B03215421}.Debug|x64.Build.0 = Debug|Any CPU
-		{8C3744ED-F4FD-43E3-B971-162B03215421}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C3744ED-F4FD-43E3-B971-162B03215421}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C3744ED-F4FD-43E3-B971-162B03215421}.Release|x64.ActiveCfg = Release|Any CPU
-		{8C3744ED-F4FD-43E3-B971-162B03215421}.Release|x64.Build.0 = Release|Any CPU
 		{8B8B46E4-868F-4466-82CF-03915BA4E3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8B8B46E4-868F-4466-82CF-03915BA4E3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B8B46E4-868F-4466-82CF-03915BA4E3A3}.Debug|x64.ActiveCfg = Debug|x64
